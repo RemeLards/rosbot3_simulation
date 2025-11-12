@@ -12,9 +12,9 @@ The source tree includes all packages composing the software stack as [git submo
 
     git clone --recurse-submodules git@github.com:RemeLards/rosbot3_simulation.git
 
-When pulling changes from the repository, remember to add the `--recurse-submodules` option to also pull changes to individual packages:
+When pulling changes from the repository, remember to execute to also pull changes to individual packages:
 
-    git pull --rebase --recurse-submodules
+    git submodule update --init --recursive --remote
 
 If you run into trouble downloading binary files stored in Large File Storage (LFS), run the command below to explicitly pull them:
 
