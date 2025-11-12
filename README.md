@@ -10,7 +10,7 @@ Make sure to have both `git` and the `git-lfs` plugin installed before cloning t
 
 The source tree includes all packages composing the software stack as [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). Use the command below to clone the submodules alongside the parent project:
 
-    git clone --recurse-submodules git@github.com:ros2amr/rosbot3_simulation.git
+    git clone --recurse-submodules git@github.com:RemeLards/rosbot3_simulation.git
 
 When pulling changes from the repository, remember to add the `--recurse-submodules` option to also pull changes to individual packages:
 
