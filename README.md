@@ -55,3 +55,12 @@ The command above will start Gazebo, load a world and place a robot inside it. T
     rqt
 
 Then load the _Robot Steering_ plugin and set its topic to`/cmd_vel`.
+
+To see the robot laser, odometry and others sensors informations, start RVIZ with :
+```
+rviz2
+```
+Or use the teleoperation.rviz (in ros_commons/config/teleoperation.rviz) file, to start Rviz with topics already configured : 
+```
+rviz2 -d teleoperation.rviz
+```
